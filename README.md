@@ -1,0 +1,3 @@
+# Exercise 1
+
+Exercise 1 is devoted to training LeNet-5 modification over fashion MNIST dataset. The dataset is loaded using standart keras.datasets. All models are given using tf.keras.models.Sequential function, than compiled with Adam optimizer, fitted for 20 epochs. First implentantion is set without any regularisation techniques and achives 0.952 on train and 0.901 on test. Dropout with 0.1 rate slightly decrease training velocity and reduce overfitting. Better result can be achieved with l2 regularisation but it requries fine tuning. BatchNormalisation speed up training rate and helps to achieve 97%. 
